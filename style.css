@@ -1,65 +1,50 @@
-header {}
+.nav-container {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+
+    width: 50%;
+
+}
 
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav>ul {
-    display: flex;
-}
-
-nav li {
-    list-style: none;
-    margin-right: 40px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #424247;
-    text-align: center;
-
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.head-title {
-    color: #131318;
-
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.title-name {
-    color: #FF5400;
-}
-
-.title-home {
-    color: #FF5400;
-}
-
-.logo {
-    width: 50px;
-    height: 31.008px;
-    padding-top: 16px;
-    align-items: center;
-}
-
-/* part one main css */
-.part-1 {
-    background: url("../Hero-travel/B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png");
-    width: 1170px;
-    height: 500px;
-    background-repeat: no-repeat;
+.header-section {
+    min-width: 1400px;
     margin: 0 auto;
+    display: flex;
+
+}
+
+.nav-container img {
+    width: 48px;
+    height: 56.008px;
+    object-fit: cover;
+    min-height: 40px;
+
+
+}
+
+.nav-container p {
+    font-size: 36px;
+    padding-left: 16px;
+}
+
+.iteam-contaier {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.iteam-contaier a {
+    text-decoration: none;
+    list-style: none;
 }
