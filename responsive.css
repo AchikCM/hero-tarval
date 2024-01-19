@@ -168,4 +168,38 @@
         position: relative;
         bottom: 111px;
     }
+
+    /* part-4 icon hotel, price service etc */
+    .part-4-container,
+    .part-4-main,
+    .sector-3,
+    .old {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .sector-1 {
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+    }
+
+    .sector-2 {
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+        padding-top: 20px;
+    }
+
+    .sector-3 {
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+        padding-right: 30px;
+    }
+
+    .old-last {
+        margin-right: 312px;
+    }
 }
