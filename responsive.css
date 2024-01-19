@@ -28,8 +28,9 @@
     }
 
     .iteam-contaier a {
-        margin-right: 300px;
+        /* margin-right: 300px; */
         padding-top: 10px;
+        margin-left: 250px;
     }
 
     /* part-1 main function */
@@ -78,7 +79,7 @@
         gap: 4px;
         padding-top: 167px;
         margin-right: 20px;
-        padding-right: 123px;
+
 
     }
 
@@ -100,7 +101,7 @@
     .main-part-1-container-2 #icon {
         position: relative;
         top: 20px;
-        right: 20px;
+
     }
 
     /* part-2 */
@@ -137,5 +138,34 @@
         flex-shrink: 0;
         margin-left: 90px;
 
+    }
+
+    .part-3-container {
+        flex-direction: column;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3 {
+        flex-direction: column;
+
+    }
+
+    .img-1 img,
+    .img-2 img,
+    .img-3 img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .center,
+    .center-2,
+    .center-3,
+    .center-4,
+    .center-5,
+    .center-6,
+    .center-7 {
+        position: relative;
+        bottom: 111px;
     }
 }
