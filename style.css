@@ -365,3 +365,59 @@ p {
     justify-content: flex-start;
 
 }
+
+.part-5-container h3 {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    /* 150% */
+    width: 448px;
+}
+
+.part-5-container p,
+ul li {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 532px;
+}
+
+
+
+.last {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {
+    width: 610px;
+    height: 424px;
+}
+
+#vide0-1 {
+
+    position: relative;
+    bottom: 260px;
+    left: 177px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    width: 276px;
+    border: 2px solid blue;
+    /* 150% */
+    /* 150% */
+}
