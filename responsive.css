@@ -216,6 +216,7 @@
         font-weight: 800;
         line-height: 30px;
         align-items: center;
+        padding-left: 10px;
     }
 
     .last p {
@@ -313,4 +314,46 @@
         font-weight: 800;
         line-height: normal;
     }
+
+    /* footer */
+    .end-container {
+        flex-direction: column;
+        width: 359px;
+        height: 400px;
+    }
+
+    .policy {
+        width: 360px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-right: 40px;
+        padding-right: 50px;
+
+        position: relative;
+        right: 226px;
+
+        /* 171.429% */
+
+    }
+
+    .last-titile {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    #last-logo {
+        position: relative;
+        left: 34px;
+        top: 64px;
+    }
+}
 }
