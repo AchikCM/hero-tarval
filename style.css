@@ -421,3 +421,98 @@ ul li {
     /* 150% */
     /* 150% */
 }
+
+/* part-6 contaienr last one of main */
+.part-6-container h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.part-6-container {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+}
+
+.part-6-container p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.final {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    width: 393px;
+    height: 52px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+.last-btn {
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40px;
+}
+
+.final-imag {
+    width: 672px;
+    height: 422px;
+    margin-top: 125px;
+}
+
+.offer {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 333px;
+    bottom: 198px;
+}
+
+#travel {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#save {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

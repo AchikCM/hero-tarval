@@ -257,5 +257,60 @@
         margin-left: 10px;
     }
 
+    .final {
+        flex-direction: column;
+    }
 
+    .part-6-container {
+        width: 375px;
+        height: 429px;
+    }
+
+    .last-btn {
+        width: 288px;
+        height: 52px;
+    }
+
+    .name {
+        width: 288px;
+        height: 52px;
+    }
+
+    .final-imag img {
+        width: 353px;
+        height: 307px;
+        margin-left: 157px;
+    }
+
+    .offer {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        flex-shrink: 0;
+        position: relative;
+        right: 46px;
+        left: 290px;
+        bottom: 245px;
+    }
+
+    #travel {
+        color: #FFF;
+
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #save {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
 }
